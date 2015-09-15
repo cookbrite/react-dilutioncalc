@@ -3,7 +3,7 @@ import Bottle from './Bottle';
 import Dilution from './Dilution';
 import { Bottles, Dilutions } from './Data';
 import calculateDilution from './Calculate';
-let calc = 0;
+let calc = [0,0];
 
 export default class Index extends React.Component {
   constructor(props) {
